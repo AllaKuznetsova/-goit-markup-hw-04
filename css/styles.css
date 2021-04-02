@@ -396,7 +396,7 @@ section {
   letter-spacing: 0.03em;
 }
 .link-social-icons-footer {
-  display: inline-flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   width: 45px;
