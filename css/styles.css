@@ -85,7 +85,7 @@ p {
 }
 .site-nav :hover,
 .site-nav :focus {
-  color: var(--accent-color);
+  fill: var(--accent-color);
 }
 .site-nav.current {
   color: var(--accent-color);
@@ -161,6 +161,7 @@ p {
   line-height: 1.875;
   text-decoration: none;
   letter-spacing: 0.06em;
+  border: none;
 }
 .btn-portfolio {
   display: inline-block;
@@ -191,6 +192,7 @@ p {
   text-align: center;
   border: none;
   cursor: pointer;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .btn-portfolio {
   display: flex;
@@ -205,8 +207,8 @@ section {
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
-  padding-top: 95px;
-  padding-bottom: 95px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .section-features {
   display: flex;
@@ -282,7 +284,7 @@ section {
   letter-spacing: 0.03em;
 }
 .section-title-name-position {
-  padding: 30px 0;
+  padding: 28px 0;
 }
 .section-title-position {
   color: var(--title-text-color);
@@ -396,7 +398,7 @@ section {
   letter-spacing: 0.03em;
 }
 .link-social-icons-footer {
-  display: flex;
+  display: inline-flex;
   justify-content: center;
   align-items: center;
   width: 45px;
